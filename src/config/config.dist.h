@@ -30,8 +30,8 @@ extern TFT_eSPI display;
 /**
  * WiFi credentials
  */
-#define WIFI_NETWORK "AKASH"
-#define WIFI_PASSWORD "45625800"
+#define WIFI_NETWORK "Your WiFi SSID"
+#define WIFI_PASSWORD "Your WiFi password"
 
 /**
  * Timeout for the WiFi connection. When this is reached,
@@ -69,8 +69,8 @@ extern TFT_eSPI display;
  * from.
  */
 #define AWS_ENABLED true
-#define AWS_IOT_ENDPOINT "a1hujmgjnlxyni-ats.iot.ap-southeast-1.amazonaws.com"
-#define AWS_IOT_TOPIC "arn:aws:iot:ap-southeast-1:956353843895:thing/iotMeterGateway"
+#define AWS_IOT_ENDPOINT "*** YOUR AWS IOT ENDPOINT ***"
+#define AWS_IOT_TOPIC "*** YOUR AWS IOT TOPIC ***"
 
 #define MQTT_CONNECT_DELAY 200
 #define MQTT_CONNECT_TIMEOUT 20000 // 20 seconds
